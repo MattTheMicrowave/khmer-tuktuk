@@ -1,0 +1,1 @@
+var my_test_array = new Array;

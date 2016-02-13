@@ -1,0 +1,146 @@
+div {
+
+padding: 10px;
+
+}
+
+#about {
+
+text-align: justify;
+
+}
+
+#contact-info {
+
+text-align: center;
+
+}
+
+#envelope {
+
+margin-left: 31px;
+
+}
+
+#container {
+
+width: 95%;
+background-color: red;
+    margin: auto;
+}
+
+body {
+
+
+/* background-image: url('../img/cambodian-flag.png');
+background-repeat: no-repeat; */
+    
+    background-color: blue;
+    
+
+}
+
+.title {
+
+text-align: center;
+
+
+}
+
+.ramorn-img {
+
+height: 250px;
+    width: 250px;
+
+    border: 2px solid black;
+
+}
+
+.ramorn-div {
+
+text-align: center;
+
+}
+
+li{}
+
+p {
+margin: auto;
+width: 1000px;
+}
+
+#img-div {
+
+height: 200px;
+
+
+
+
+
+}
+
+img {
+
+border: 2px solid black;
+  
+}
+
+
+#previous, #next {
+
+
+display: inline-block;
+
+}
+#social-media {
+
+
+
+}
+
+.nopad {
+
+padding: 0px;
+
+}
+
+#carouselcontainer {
+
+text-align: center;
+
+}
+
+#music-title {
+
+margin-bottom: 0px;
+    margin-top: 50px;
+
+}
+
+#description {
+
+text-align: center;
+
+
+}
+
+p {
+
+text-align: justify;
+
+}
+
+
+.fa-5x {
+
+padding: 15px 15px 0px 15px;
+
+}
+
+#music {
+
+text-align: center;
+
+}
+
+video:hover {}
