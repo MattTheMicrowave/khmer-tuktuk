@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    
+    <title>This is a practice carousel</title>
+    </head>
+<body>
+    
+<!--    this is a simple slideshow that i made in javascript following a tutorial posted on youtube at https://www.youtube.com/watch?v=Go7Mc-cfsKU-->
+    
+    
+    <script type="text/javascript">
+    
+    var Image = new Array("/img/test1.jpg", "/img/test2.jpg", "/img/test3.jpg");
+
+var Image_number = 0;
+var Image_length = Image.length - 1;
+
+function change_image(num) {
+
+Image_number = Image_number + num;
+    
+    if (Image_number > Image_length) {
+    
+    
+    Image_number = 0;
+    
+    };
+    
+    if (Image_number < 0) {
+    
+    Image_number = Image_length;
+    };
+
+    
+    document.slideshow.src = Image[Image_number];
+    
+//    return false; 
+    
+};
+
+    
+    
+    </script>
+    
+    
+    <img src="/img/test1.jpg" name="slideshow" height="234px">
+    <table>
+    
+    <tr>
+        
+        <td align="left"><a href="javascript:change_image(-1)" onlick="return change_Image(-1)">Previous</a></td>
+          <td align="right"><a href="javascript:change_image(1)">Next</a></td>  
+        
+        
+        </tr>
+    
+    </table>
+    
+    
+    <div id="description"></div>
+    </body>
+
+
+</html>
