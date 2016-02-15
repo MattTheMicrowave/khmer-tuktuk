@@ -62,7 +62,11 @@ text-align: center;
 
 }
 
-li{}
+ul {
+
+list-style: none;
+
+}
 
 p {
 margin: auto;
@@ -85,6 +89,14 @@ border: 2px solid black;
   
 }
 
+hr {
+
+width: 50%;
+    color: black;
+    height: 2px;
+    border-color: black;
+
+}
 
 #previous, #next {
 
@@ -108,6 +120,13 @@ padding: 0px;
 
 text-align: center;
 
+}
+
+#previous, #next {
+
+
+font-weight: 600;
+font-size: 1.17em;    
 }
 
 #music-title {
@@ -143,4 +162,22 @@ text-align: center;
 
 }
 
+#description .fa:hover {
+
+color: blue;
+}
+
 video:hover {}
+
+#list-div {
+
+display: inline-block;
+
+}
+
+.contactramorn {
+
+text-decoration-line: none;
+    font-size: 1.25em;
+    
+}
