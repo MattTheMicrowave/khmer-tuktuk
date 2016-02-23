@@ -1,27 +1,43 @@
-var image = new Array("../img/test1.jpg", "../img/test2.jpg", "../img/test3.jpg");
+document.querySelector('video').addEventListener('click', function(event) {
 
-var image_number = 0;
-var image_length = image.length - 1;
 
-function change_image(num) {
 
-image_number = image_number + num;
-    
-    if (image_number > image_length) {
-    
-    
-    image_number = 0;
-    
-    };
-    
-    if (image_number < 0) {
-    
-    image_number = image_length;
-    };
+window.open("https://www.youtube.com/watch?v=8pPclwIT2uA");
 
-    
-    document.carousel.src = image[image_number];
-    
-    return false;
-    
-};
+
+});
+
+document.querySelector('.fa-instagram').addEventListener('click', function(event) {
+
+
+window.open("https://www.instagram.com/mateo.lluis/");
+
+
+});
+document.querySelector('.fa-youtube').addEventListener('click', function(event) {
+
+
+window.open("https://www.youtube.com/channel/UCBUCpHDCXM9MsPL9QVV7C-g");
+
+
+});
+document.querySelector('.fa-twitter').addEventListener('click', function(event) {
+
+
+window.open("https://twitter.com/matthew_lluis");
+
+
+});
+
+document.querySelector('#myfacebook').addEventListener('click', function(event) {
+
+
+window.open("https://www.facebook.com/profile.php?id=7952959");
+
+
+});
+
+document.getElementById('ramorn_email').addEventListener('click', () => window.open("http://www.khmertuktuk.com/contact-form/contact-form.html"));
+
+
+document.getElementById('ramorn_email').disabled = true;
