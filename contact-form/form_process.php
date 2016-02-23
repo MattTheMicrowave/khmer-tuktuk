@@ -20,9 +20,9 @@ $subject = 'New Message' . ' - ' . $first_name . ' ' . $last_name;
 
 
 
-//wrtiting the script with the headers in the mail function fixed the script;
+//wrtiting the script with the headers in the mail function fixed the script
 
-// this from header only works with first and last name, why???
+
 mail ($to, $subject, $message, "From: " . $email);
 
 echo "Your Message Has Been Sent, Close the Window to Return to Mr. Ramorn's Homepage";
