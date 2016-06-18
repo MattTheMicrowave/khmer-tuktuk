@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'customfont1';
+    src: url(../fonts/TEXAT BOLD PERSONAL USE___.otf);
+}
+
 #the-flag {
 
 height: 20px;
@@ -87,16 +92,16 @@ body {
 
 /* background-image: url('../img/cambodian-flag.png');
 background-repeat: no-repeat; */
-    
+
     background-color: blue;
-    
+
 
 }
 
 .title {
 
 text-align: center;
-
+font-family: 'customfont1';
 
 }
 
@@ -139,7 +144,7 @@ height: 300px;
 img {
 
 border: 2px solid black;
-  
+
 }
 
 hr {
@@ -179,7 +184,7 @@ text-align: center;
 
 
 font-weight: 600;
-font-size: 1.17em;    
+font-size: 1.17em;
 }
 
 #music-title {
@@ -233,7 +238,7 @@ display: inline-block;
 text-decoration-line: none;
     font-size: 1.25em;
     text-decoration: none;
-    
+
 }
 #about {
 
@@ -253,7 +258,7 @@ margin-bottom: 50px;
 }
 
 hr {
-    
+
     background-color: black;
     height: 0px;
 
